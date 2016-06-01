@@ -1,4 +1,3 @@
-
 using PyPlot
 using LaTeXStrings 
 plt[:style][:use]("ggplot")
