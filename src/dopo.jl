@@ -33,15 +33,16 @@ function simulate_reservoir2(data, χ, β, Δ, σ, u0; spd=2, hmax=.01, seed=0)
     beta = β
     gamma = (χ^2/β)
     epsmax = 2σ/sqrt(β)*χ
-    max_sig_amp = sqrt((epsmax-kappa/2.)/gamma)
-    max_pump_amp = 2σ/sqrt(β)
+    # max_sig_amp = sqrt((epsmax-kappa/2.)/gamma)
+    # max_pump_amp = 2σ/sqrt(β)
 
 
     println("γ: $gamma")
-    println("|α_s|_max: $max_sig_amp")
-    println("|α_s|^2_max: $(max_sig_amp^2)")
-    println("|α_p|_max: $max_pump_amp")
-    println("|α_p|^2_max: $(max_pump_amp^2)")
+    println("epsmax: $epsmax")
+    # println("|α_s|_max: $max_sig_amp")
+    # println("|α_s|^2_max: $(max_sig_amp^2)")
+    # println("|α_p|_max: $max_pump_amp")
+    # println("|α_p|^2_max: $(max_pump_amp^2)")
 
 
 
